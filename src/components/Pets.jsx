@@ -21,6 +21,14 @@ class Pets extends Component {
         // component will re-render
     }
 
+    // lifecycle methods
+    // after component gets created
+    // componentDidMount will run
+    componentDidMount() {
+        // call your APIs
+        // fetch or axio
+    }
+
     clickMe = (e) => {
         // this.setState({ title: "My New Pets Component" });
         this.setState({ number: 1000 });
